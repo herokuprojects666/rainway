@@ -1,0 +1,58 @@
+.col {
+	float: left;
+	width: 16.6666%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.a-button {
+	background-color: green;
+	height: 30px;
+	width: 30px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.x-button {
+	background-color: blue;
+	height: 30px;
+	width: 30px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.y-button {
+	background-color: yellow;
+	height: 30px;
+	width: 30px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.b-button {
+	background-color: red;
+	height: 30px;
+	width: 30px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.pressed {
+	opacity: 100%;
+}
+.not-pressed {
+	opacity: 25%
+}
+.joystick-area {
+	background-color: grey;
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	border-radius: 50%;
+	opacity: 50%;
+}
+.joystick {
+	background-color: black;
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 50%;
+	position: relative;
+}
