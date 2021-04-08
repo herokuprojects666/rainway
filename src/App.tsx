@@ -15,7 +15,6 @@ function App() {
 	const [gamepad, setGamepad] = useState({} as GamePad);
 	const [leftStickStyle, setLeftStickStyle] = useState({} as React.CSSProperties);
 	const [rightStickStyle, setRightStickStyle] = useState({} as React.CSSProperties);
-	const [input, setInput] = useState('');
 	const [isConnected, setIsConnected] = useState(false);
 	const messageEvent = (message: MessageEvent) => {
 		const parsedMessage = JSON.parse(message.data);
