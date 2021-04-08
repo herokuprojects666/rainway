@@ -40,7 +40,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ### Starting Python Server
-**Note: This is my process running a local dev server in Windows 10. Your mileage may vary depending on the environment that you're trying to run the devserver in.!**
+**Note: This is my process running a local dev server in Windows 10. Your mileage may vary depending on the environment that you're trying to run the devserver in.**
 
 To install the only python dependencies run: `python -m pip install websockets`
 
